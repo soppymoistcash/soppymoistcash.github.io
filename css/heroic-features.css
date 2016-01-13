@@ -10,12 +10,41 @@ body {
 
 .hero-feature {
     margin-bottom: 30px;
+    position:relative;
 }
 
 .hero-spacer{
-	padding:30px 0 50px 0;
+	padding:0px 0 75px 0;
+	position:relative;
+
 }
 
 footer {
     margin: 50px 0;
+}
+
+
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: relative;
+    top: -120px;
+}
+
+.jumbotron{
+	background:transparent!important;
+	color:#fff;
+	text-shadow: 2px 2px #000;
+}
+
+.jumbotron .container {
+    padding-top: 50px;
 }
