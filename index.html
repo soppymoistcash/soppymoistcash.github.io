@@ -64,13 +64,7 @@
 
         <!-- Jumbotron Header -->
         <header class="jumbotron hero-spacer">
-        <div class="fullscreen-bg">
-    <video loop muted autoplay poster="video/cash.jpg" class="fullscreen-bg__video">
-        <source src="video/cash.webm" type="video/webm">
-        <source src="video/cash.mp4" type="video/mp4">
-        <source src="video/cash.ogv" type="video/ogg">
-    </video>
-</div>
+        <div class="fullscreen-bg" data-vide-bg="mp4: video/cash, webm: video/cash, poster: images/cash2.jpg" data-vide-options="loop:true, position: 0% 50%"></div>
         <div class="container">
             <h1>Soppy! Moist! Cash!</h1>
             <p>Wet cash, wet money, damp, moist bills, wads, lubricated cash, dampening service, dipping, waterproof pouch, cold money, hot money, dripping bills, dripping money.</p>
@@ -169,7 +163,10 @@ Highly Recommended!!!!!</p>
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.12.0.min.js"></script>
+
+
+    <script src="js/jquery.vide.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

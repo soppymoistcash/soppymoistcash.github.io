@@ -32,6 +32,8 @@ footer {
     left: 0;
     overflow: hidden;
     z-index: -100;
+    background:url('../images/cash2.jpg') -300px -300px no-repeat;
+    background-position:cover;
 }
 
 .fullscreen-bg__video {
